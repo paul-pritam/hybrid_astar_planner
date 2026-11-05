@@ -1,0 +1,9 @@
+<class_libraries>
+  <library path="hybrid_astar_planner">
+    <class name="hybrid_astar/HybridAStarPlanner" type="hybrid_astar::HybridAStarPlanner" base_class_type="nav2_core::GlobalPlanner">
+      <description>
+        C++20 Kinodynamic Hybrid A* Global Planner plugin for ROS 2 Nav2.
+      </description>
+    </class>
+  </library>
+</class_libraries>
