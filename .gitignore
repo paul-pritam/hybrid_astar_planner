@@ -2,13 +2,36 @@
 build/
 install/
 log/
+out/
+*.log
+
+# C++ compilation and LSP tooling
+*.o
+*.obj
+*.so
+*.a
+compile_commands.json
+.cache/
+.clangd/
+*.orig
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+Testing/
+cmake_install.cmake
+install_manifest.txt
+CTestTestfile.cmake
+_deps/
 
 # Editors and IDEs
 .vscode/
 .idea/
 *.swp
+*.swo
 *~
 
 # OS specific
 .DS_Store
 Thumbs.db
+desktop.ini
