@@ -1,0 +1,14 @@
+# Build and install artifacts
+build/
+install/
+log/
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+*~
+
+# OS specific
+.DS_Store
+Thumbs.db
